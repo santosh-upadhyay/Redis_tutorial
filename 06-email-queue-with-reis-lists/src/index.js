@@ -31,6 +31,7 @@ app.get('/emails/process-one', async(req,res)=>{
     res.json({message:"Email sent", job});
 })
 
+
 app.listen(3000,()=>{
     console.log("Server is running on port http://localhost:3000");
 })
