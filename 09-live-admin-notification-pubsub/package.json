@@ -4,15 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "api": "node src/index.js",
-    "subscriber":"node src/subscriber.js"
+    "dev": "node src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "bullmq": "5.79.1",
     "express": "^5.2.1",
     "ioredis": "^5.11.1"
   }
